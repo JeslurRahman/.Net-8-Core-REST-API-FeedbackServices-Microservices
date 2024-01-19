@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FeedbackService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:FeedbackService.Api.V1.Controllers.FeedbacksController.GetFeedbacks">
+            <summary>
+            Get all the feedbacks.
+            </summary>
+            <returns>Feedbacks</returns>
+            <remarks>        
+            - Tables used. => Feedback
+            </remarks>
+        </member>
+        <member name="M:FeedbackService.Api.V1.Controllers.FeedbacksController.GetFeedbackById(System.Int32)">
+            <summary>
+            Get feedback by Id.
+            </summary>
+            <returns>Feedback</returns>
+            <remarks>        
+            - Tables used. => Feedbacks
+            </remarks>
+        </member>
+        <member name="M:FeedbackService.Api.V1.Controllers.FeedbacksController.CreateFeedback(FeedbackService.Core.Models.Feedback)">
+            <summary>
+            Create feedback.
+            </summary>
+            <returns>Feedback</returns>
+            <remarks>        
+            - Tables used. => Feedbacks
+            </remarks>
+        </member>
+        <member name="M:FeedbackService.Api.V1.Controllers.FeedbacksController.DeleteFeedback(System.Int32)">
+            <summary>
+            Delete feedback.
+            </summary>
+            <returns>true/false</returns>
+            <remarks>        
+            - Tables used. => Feedbacks
+            </remarks>
+        </member>
+        <member name="M:FeedbackService.Api.V1.Controllers.FeedbacksController.UpdateFeedback(System.Int32,FeedbackService.Core.Models.Feedback)">
+            <summary>
+            Update feedback.
+            </summary>
+            <returns>true/false</returns>
+            <remarks>        
+            - Tables used. => Feedbacks
+            </remarks>
+        </member>
+        <member name="M:FeedbackService.Api.V2.Controllers.FeedbacksController.GetFeedbacks">
+            <summary>
+            Get all the feedbacks.
+            </summary>
+            <returns>Feedbacks</returns>
+            <remarks>        
+            - Tables used. => Feedback
+            </remarks>
+        </member>
+    </members>
+</doc>
